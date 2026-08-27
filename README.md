@@ -63,6 +63,11 @@ It combines playful Pokémon aesthetics with modern web technologies to create a
 ---
 <img width="2578" height="1444" alt="Screenshot 2026-08-26 142202" src="https://github.com/user-attachments/assets/cc744e0e-607e-49ad-a362-97a873b7c77c" />
 ---
+---
+---
+<img width="2038" height="1240" alt="Screenshot 2026-08-26 130248" src="https://github.com/user-attachments/assets/63b767b2-1fba-4661-8098-6d8c9f0df1f9" />
+---
+---
 
 ### ✨ What makes it special
 - Pikachu **follows your mouse movements** smoothly across the canvas.
@@ -71,9 +76,3 @@ It combines playful Pokémon aesthetics with modern web technologies to create a
 - A glowing title and instruction text layered above the animations for a vibrant look.
 - Fully responsive design that adapts to different screen sizes.
 - Easy customization — swap out background images or sprite assets in the `/public/frames/` folder.
-
----
----
-<img width="2038" height="1240" alt="Screenshot 2026-08-26 130248" src="https://github.com/user-attachments/assets/63b767b2-1fba-4661-8098-6d8c9f0df1f9" />
----
----
