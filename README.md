@@ -1,7 +1,7 @@
 # Pikachu-play
 ---
 This project demonstrates how to blend **creative animation** with **modern frontend development**.  
-Pikachu play** is a fun and interactive web application built with **React + Vite**.  
+Pikachu play is a fun and interactive web application built with **React + Vite**.  
 It combines playful Pokémon aesthetics with modern web technologies to create a dynamic showcase where Pikachu comes to life on your screen.
 ---
 ---
