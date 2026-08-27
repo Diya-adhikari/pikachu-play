@@ -1,4 +1,4 @@
-# Pikachu-play⚡🐭
+# Pikachu-play
 
 An interactive Pikachu showcase built with **React + Vite**.  
 
