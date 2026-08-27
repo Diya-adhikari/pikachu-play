@@ -74,8 +74,3 @@ pikachu-lab/
 4.***npm run build***
    '''npm run build
 ---
-## Usage
-Move your mouse → Pikachu follows smoothly.
-Click Pikachu → Giggle animation + sound.
-Background effects run automatically.
-Replace /public/frames/pikachu-grass.png with any image to change background.
