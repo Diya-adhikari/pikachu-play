@@ -56,7 +56,6 @@ An interactive Pikachu showcase built with **React + Vite**.
 - **vite.config.js** → Vite configuration (build settings, base path).
 - **eslint.config.js** → ESLint rules for code quality.
 - **.gitignore** → Files/folders Git should ignore (e.g., `node_modules`).
----
----
 - **package-lock.json** → Exact dependency versions (auto‑generated).
-- **README.md** → Documentation for your project.
+---
+---
