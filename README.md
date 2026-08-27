@@ -22,55 +22,41 @@ An interactive Pikachu showcase built with **React + Vite**.
 ---
 
 ## 📂 Project Structure
-----
-
-pikachu-lab/
-├── public/
-│   ├── frames/
-│   │   ├── frames.json          # Defines sprite sheet frame ranges (idle, giggle, blink)
-│   │   ├── giggle.mp3           # Pikachu giggle sound
-│   │   ├── pikachu-char.webp    # Main sprite sheet for Pikachu
-│   │   ├── pikachu-blink.png    # Blink frame
-│   │   ├── pikachu-giggle.png   # Giggle frame
-│   │   ├── pikachu-open.png     # Open mouth frame
-│   │   └── pikachu-grass.png    # Background image
-│   ├── favicon.svg              # Browser tab icon
-│   └── icons.svg                # Vector icons
-├── src/
-│   ├── assets/
-│   │   ├── hero.png             # Placeholder image
-│   │   ├── react.svg            # React logo
-│   │   └── vite.svg             # Vite logo
-│   ├── components/
-│   │   ├── Pikachu.jsx          # Pikachu animation logic (mouse follow, giggle sound)
-│   │   ├── GlyphRain.jsx        # Matrix-style falling glyphs effect
-│   │   ├── Lightning.jsx        # Lightning bolt background effect
-│   │   └── SplashCursor.jsx     # Cursor splash effect
-│   ├── App.css                  # Styles for layout, background, title, instructions
-│   ├── App.jsx                  # Main app layout; imports components, title, instructions
-│   ├── index.css                # Global styles (fonts, resets)
-│   └── main.jsx                 # React entry point; mounts <App /> into index.html
-├── index.html                   # Entry point for the app
-├── package.json                 # Dependencies and scripts
-├── vite.config.js               # Vite configuration
-├── eslint.config.js             # ESLint rules
-├── .gitignore                   # Files/folders Git should ignore
-├── package-lock.json            # Exact dependency versions
-└── README.md                    # Documentation
-
----
 ---
 
-## ⚙️ Setup & Installation
+- **public/** → Static files served directly by Vite.
+  - **frames/** → Pikachu assets and sound.
+    - `frames.json` → Defines sprite sheet frame ranges (idle, giggle, blink).
+    - `giggle.mp3` → Pikachu giggle sound effect.
+    - `pikachu-char.webp` → Main sprite sheet for Pikachu.
+    - `pikachu-blink.png` → Blink frame image.
+    - `pikachu-giggle.png` → Giggle frame image.
+    - `pikachu-open.png` → Open mouth frame image.
+    - `pikachu-grass.png` → Background image (grass scene).
+  - `favicon.svg` → Browser tab icon.
+  - `icons.svg` → Vector icons used in UI.
 
-1. **Clone the repo**
-   ```bash
-   git clone https://github.com/your-username/pikachu-lab.git
-   cd pikachu-lab
-2. **Install dependencies**
-   '''npm install
-3.**Run development server**
-   '''npm run dev
-4.***npm run build***
-   '''npm run build
+- **src/** → React application source code.
+  - **assets/** → Miscellaneous images/logos.
+    - `hero.png` → Placeholder hero image.
+    - `react.svg` → React logo.
+    - `vite.svg` → Vite logo.
+  - **components/** → Core interactive components.
+    - `Pikachu.jsx` → Pikachu animation logic (mouse follow, giggle sound).
+    - `GlyphRain.jsx` → Matrix‑style falling glyphs effect.
+    - `Lightning.jsx` → Lightning bolt background effect.
+    - `SplashCursor.jsx` → Cursor splash effect.
+  - `App.css` → Styles for layout, background, title, instructions.
+  - `App.jsx` → Main app layout; imports components, title, instructions.
+  - `index.css` → Global styles (fonts, resets).
+  - `main.jsx` → React entry point; mounts `<App />` into `index.html`.
+
+- **index.html** → Entry point for the app; Vite injects React here.
+- **package.json** → Lists dependencies (React, Vite, etc.) and npm scripts.
+- **vite.config.js** → Vite configuration (build settings, base path).
+- **eslint.config.js** → ESLint rules for code quality.
+- **.gitignore** → Files/folders Git should ignore (e.g., `node_modules`).
 ---
+---
+- **package-lock.json** → Exact dependency versions (auto‑generated).
+- **README.md** → Documentation for your project.
