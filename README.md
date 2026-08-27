@@ -3,6 +3,14 @@
 An interactive Pikachu showcase built with **React + Vite**.  
 
 ---
+## 🛠️ Tools & Tech
+- **Node.js** (runtime environment for development/build)
+- **React** (UI framework)
+- **Vite** (bundler & dev server)
+- **Canvas API** (animations)
+- **CSS3** (gradient backgrounds, glowing text)
+- **JavaScript ES6+** (logic & interactivity)
+---
 
 ## 🚀 Features
 - **Interactive Pikachu**: Smoothly follows mouse movement.
@@ -51,16 +59,6 @@ pikachu-lab/
 └── README.md                    # Documentation
 
 ---
-
----
-
-## 🛠️ Tools & Tech
-- **React** (UI framework)
-- **Vite** (bundler & dev server)
-- **Canvas API** (animations)
-- **CSS3** (gradient backgrounds, glowing text)
-- **JavaScript ES6+** (logic & interactivity)
-
 ---
 
 ## ⚙️ Setup & Installation
