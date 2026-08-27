@@ -65,3 +65,4 @@ An interactive Pikachu showcase built with **React + Vite**.
 ---
 <img width="2038" height="1240" alt="Screenshot 2026-08-26 130248" src="https://github.com/user-attachments/assets/63b767b2-1fba-4661-8098-6d8c9f0df1f9" />
 ---
+---
