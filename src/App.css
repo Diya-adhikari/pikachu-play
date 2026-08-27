@@ -1,0 +1,82 @@
+/* Global background + text */
+body {
+  background: url('/frames/pikachu-grass.png') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  margin: 0;
+  overflow: hidden;
+}
+
+
+/* Glowing headings */
+h1, h2 {
+  text-shadow: 0 0 10px #ffcc00, 0 0 20px #ffcc00, 0 0 30px #ffcc00;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+/* Gradient animation */
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Pikachu showcase container */
+.app {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Title text */
+.title {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 48px;
+  text-align: center;
+  color: yellow;
+  text-shadow: 0 0 10px #ff0, 0 0 20px #ff0, 0 0 40px #ff0;
+  font-family: 'Arial Black', sans-serif;
+  z-index: 20; /* Title above everything */
+}
+
+/* Pikachu canvas */
+canvas {
+  position: relative;
+  z-index: 10; /* Pikachu visible */
+}
+
+/* Background effect canvases (Lightning, GlyphRain) */
+.background-effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1; /* behind Pikachu */
+  background: transparent; /* no solid fill */
+}
+
+/* Instruction text */
+.instructions {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 22px;
+  color: yellow;
+  text-shadow: 0 0 10px #ff0, 0 0 20px #ff0;
+  font-family: 'Arial Black', sans-serif;
+  text-align: center;
+  z-index: 20; /* above Pikachu */
+}
+
+
+
+
