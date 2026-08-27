@@ -59,3 +59,6 @@ An interactive Pikachu showcase built with **React + Vite**.
 - **package-lock.json** → Exact dependency versions (auto‑generated).
 ---
 ---
+<img width="2578" height="1444" alt="Screenshot 2026-08-26 142202" src="https://github.com/user-attachments/assets/cc744e0e-607e-49ad-a362-97a873b7c77c" />
+
+<img width="2038" height="1240" alt="Screenshot 2026-08-26 130248" src="https://github.com/user-attachments/assets/63b767b2-1fba-4661-8098-6d8c9f0df1f9" />
